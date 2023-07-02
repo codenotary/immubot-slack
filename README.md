@@ -4,7 +4,7 @@ Immubot for slack to track conversation history and to ensure integrity
 
 ## Description
 
-Immubot for slack is based on [slack/bolt](https://slack.dev/bolt-js/concepts) and listens on message_changed and message_deleted events.
+Immubot for slack is based on [slack/bolt](https://slack.dev/bolt-js/concepts) and listens on message_changed and message_deleted events. To ensure message integrity all changes are pushed to [ImmuDB Vault](https://vault.immudb.io/) service 
 
 Key features
  * works with multiple channels (depending on which channel you invite the Immubot)
@@ -67,3 +67,5 @@ node app.js
     }
 
 ```
+
+![immudb-vault](img/vault.png)
